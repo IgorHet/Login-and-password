@@ -1,4 +1,4 @@
-public class User {
+class User {
     private String login;
     private Acount acount;
 
