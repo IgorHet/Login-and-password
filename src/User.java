@@ -16,6 +16,7 @@ class User {
             System.out.println("Вход в аккаунт успешен! "+ login + "\nПароль " + password);
         }
     }
+    // Метод для виклику методу внутрішнього класу Account
     public void displayAccount() {
         acount.displayAccount();
     }
